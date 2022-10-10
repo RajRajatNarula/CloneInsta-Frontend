@@ -44,7 +44,7 @@ class Post extends Component {
                         body : JSON.stringify(payload),
                     }
 
-                    fetch("https://instagraamclonefrontend.herokuapp.com/comments" , requestOptions)
+                    fetch("https://instagraamclone.herokuapp.com/comments" , requestOptions)
                     .then(response => response.json())
                     .then(data => {
                             console.log(data)
@@ -84,7 +84,7 @@ class Post extends Component {
         //     }
         // ];
 
-        fetch("https://instagraamclonefrontend.herokuapp.com/comments/"+this.props.id)
+        fetch("https://instagraamclone.herokuapp.com/comments/"+this.props.id)
         .then(response => response.json())
         .then(data => {
                 console.log(data)

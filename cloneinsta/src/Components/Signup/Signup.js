@@ -53,7 +53,7 @@ class Signup extends Component {
                         body : JSON.stringify(payload),
                     }
 
-                    fetch("https://instagraamclonefrontend.herokuapp.com/users" , requestOptions)
+                    fetch("https://instagraamclone.herokuapp.com/users" , requestOptions)
                     .then(response => response.json())
                     .then(data => {
                         localStorage.setItem("users",JSON.stringify(user));

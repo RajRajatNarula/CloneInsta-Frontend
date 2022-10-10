@@ -67,7 +67,7 @@ class Navbar extends Component {
                         body : JSON.stringify(payload),
                     }
 
-                    fetch("https://instagraamclonefrontend.herokuapp.com/post" , requestOptions)
+                    fetch("https://instagraamclone.herokuapp.com/post" , requestOptions)
                     .then(response => response.json())
                     .then(data => {
                             console.log(data)

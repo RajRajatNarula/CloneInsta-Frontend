@@ -1,0 +1,157 @@
+body{
+    background: #FAFAFA;
+}
+.loginpage_main{
+    display: flex;
+    margin-top: 15px;
+    margin-left: -65px;
+}
+
+.loginpage_logo
+{
+    width:175px;
+    margin-top: 25px;
+}
+
+.loginpage_right{
+    
+    padding-bottom: 25px;
+    width: 350px;
+    border: 2px solid #DBDBDB ;
+    margin-top: 25px; 
+    text-align: center;  
+    background: white;
+}
+
+.loginpage_signin
+{
+    margin-top: 20px;
+}
+
+.loginpage_text
+{
+    height: 36px;
+    width: 270px;
+    margin-top: 5px;
+    border: 1px solid #DBDBDB;
+    background: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.loginpage_signinbutton
+{
+    margin-top: 15px;
+    width: 284px;
+    height: 30px;
+    color: white;
+    background: #B2DFFC;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.loginpage_signinbutton:hover{
+    background-color: #3DAAEC ;
+}
+.loginpage_ordiv
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.divider
+{
+    border: 1px solid black;
+    height: 0px;
+    width:105px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:11px;
+    border-color: #DBDBDB;
+}
+.or
+{
+    color: #AFB0AB;
+    font-size: medium;
+    font-family: bold;
+    margin-top: 2.5px;
+}
+
+.loginpage_fblogin
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    
+}
+
+.fblogo
+{
+    width: 10pxs;
+    height: 10pxs;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.fblogin
+{
+    color: #3E5185;
+    font-family: bold;
+    margin-top: 3px;
+}
+.fblogin:hover{
+    color: blue;
+}
+
+
+.loginpage_forgotpass
+{
+    margin-top: 20px;
+    color: #00376B;
+    font-family: bold;
+    font-size: medium;
+}
+
+.noaccount
+{
+    
+    text-align: center;
+    border: 2px solid #DBDBDB ;
+    background-color: white;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.signin
+{
+    margin-top: 12px;
+}
+.signup
+{
+    margin-top: 12px;
+}
+
+.downloadapp
+{
+    text-align: center;
+    margin-top: 25px;
+    
+    justify-content: center;
+}
+
+.getapp
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.storelinks
+{
+    margin-top: 30px;
+    
+}

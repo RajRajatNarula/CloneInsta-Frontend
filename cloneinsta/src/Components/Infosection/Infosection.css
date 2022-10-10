@@ -1,0 +1,49 @@
+.infosection_container
+{
+    height: 100%;
+    width: 0%;
+    
+    margin-left: -50%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.infosection_avatar
+{
+    min-height: 70px;
+    min-width:  70px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.infosection_userdetails
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.infosection_userid
+{
+    font-family: bold;
+    font-size: large;
+    font-weight: bold;
+}
+
+.infosection_username
+{
+    
+    color: #A2A2A2;
+    font-weight: light;
+}
+
+.infosection_switch
+{
+    
+    right: 310px;
+    margin-top: 25px;
+    color: #0095F6;
+    
+    font-weight: bolder;
+    font-size: small;
+}

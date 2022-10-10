@@ -1,0 +1,56 @@
+.navbar_content
+{
+    height:65px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    
+   
+    
+}
+
+.insta_logo
+{
+    margin-top: 10px;
+}
+.searchbar
+{
+    margin-top: 13px;
+    height: 20%;
+    width: 78%;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-family: bold;
+    
+    
+}
+
+.navbar_logos
+{
+    margin-top: 20px;
+    margin-right: 15px;
+    
+}
+
+.navbar_logos_upload
+{
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: -12px;
+    height: 55px;
+    width: 55px;    
+}
+
+.navbar_avatar
+{
+    margin-top:15px ;
+    margin-left: 4px;
+}
+
+.progressbar
+{
+    margin-top: -51.5px;
+    margin-left: -4.5px;
+}

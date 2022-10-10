@@ -33,7 +33,7 @@ class Mainpage extends Component {
         // ];
 
 
-        fetch("http://localhost:8080/post")
+        fetch("https://instagraamclonefrontend.herokuapp.com/post")
                     .then(response => response.json())
                     .then(data => {
                             console.log(data)
